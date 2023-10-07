@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR BLOGS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <button id="button">
+        <i class="bi bi-moon-fill"></i>
+    </button>
+    <a href="./blogs.html">
+        <button id="prev">
+            <i class="bi bi-chevron-right"></i>
+        </button>
+    </a>
+    <div class="navbar_section">
+        <div class="navbar">
+            <div class="navbar_div">
+                <div class="img_and_text">
+                    <img src="./image/user-1.jpg" alt="Image">
+                    <h5>SERGIOBI</h5>
+                </div>
+                <ul>
+                    <li style="border-bottom: 1px solid #343a4027">
+                        <a href="./index.html">
+                            <i class="bi bi-house-door"></i> HOME
+                        </a>
+                    </li>
+                    <li style="border-bottom: 1px solid #343a4027">
+                        <a href="#about">
+                            <i class="bi bi-person-vcard"></i>
+                            ABOUT ME
+                        </a>
+                    </li>
+                    <li style="border-bottom: 1px solid #343a4027"><a href="#services"> <i
+                                class="bi bi-sliders2-vertical"></i>
+                            SERVICES</a></li>
+                    <li style="border-bottom: 1px solid #343a4027"><a href="#experience"> <i
+                                class="bi bi-journal-bookmark"></i>
+                            PORTFOLIO</a></li>
+                    <li style="border-bottom: 1px solid #343a4027">
+                        <a href="#blogs">
+                            <i class="bi bi-card-text"></i>
+                            BLOGS</a>
+                    </li>
+                    <li><a href="#contact"> <i class="bi bi-map"></i> CONTACT ME</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="blogs">
+        <div class="container">
+            <div class="blogs_main_text">
+                <h1 class="before_text blogs_text">OUR BLOGS</h1>
+            </div>
+            <div class="blogs_cards">
+                <div class="blogs_card">
+                    <img src="./image/blog-1.jpg" alt="">
+                    <div class="blogs_card_text">
+                        <p>29/FEB/2022 - WEBSITE - 1 COMMENT</p>
+                        <h1>Five Solid Evidences Attending <br> Design Is Good For Your Career Development.</h1>
+                    </div>
+                </div>
+                <div class="blogs_card">
+                    <img src="./image/blog-2.jpg" alt="">
+                    <div class="blogs_card_text">
+                        <p>29/FEB/2022 - WEBSITE - 1 COMMENT</p>
+                        <h1>Ten Mind-Blowing Reasons Why Design Is Using This Technique For Exposure.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="next_icons">
+                <div>
+                    <a href="/blogs.html" class="left_icon">
+                        <i class="bi bi-chevron-left left"></i>
+                    </a>
+                    <a href="/blogs.html">
+                        <i class="one">1</i>
+                    </a>
+                    <a href="/blogs2.html">
+                        <i class="two">2</i>
+                    </a>
+                    <a href="/blogs2.html">
+                        <i class="bi bi-chevron-right right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: window.innerWidth < 767 ? 1 : 2, // Check screen size and set slidesPerView accordingly
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+        let typed = new Typed(".auto-type", {
+            strings: ["Coding", "Sentence", "emphasis"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+        })
+
+
+
+
+    </script>
+</body>
+
+</html>

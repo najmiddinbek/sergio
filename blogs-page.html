@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="navbar_section">
+        <div class="navbar">
+            <div class="navbar_div">
+                <div class="img_and_text">
+                    <img src="./image/user-1.jpg" alt="Image">
+                    <h5>SERGIOBI</h5>
+                </div>
+                <ul>
+                    <li style="border-bottom: 1px solid #343a4027"><a href="./index.html"> <i
+                                class="bi bi-house-door"></i>
+                            HOME</a></li>
+                    <li style="border-bottom: 1px solid #343a4027"><a href="#about"> <i class="bi bi-person-vcard"></i>
+                            ABOUT ME</a></li>
+                    <li style="border-bottom: 1px solid #343a4027"><a href="#services"> <i
+                                class="bi bi-sliders2-vertical"></i> SERVICES</a></li>
+                    <li style="border-bottom: 1px solid #343a4027"><a href="#experience"> <i
+                                class="bi bi-journal-bookmark"></i> PORTFOLIO</a></li>
+                    <li style="border-bottom: 1px solid #343a4027"><a href="#"> <i class="bi bi-card-text"></i>
+                            BLOGS</a></li>
+                    <li><a href="#contact"> <i class="bi bi-map"></i> CONTACT ME</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="blog_page_img">
+            <img src="./image/blog-1.jpg" alt="">
+        </div>
+        <div class="blogs_page_div">
+            <a class="lifestyle" href="">LIFESTYLE</a>
+            <h1 class="they">They Now Bade Farewell To The Kind But Unseen People</h1>
+            <div class="flex-2">
+                <div class="blogs_page_image">
+                    <img src="/image/team-1.jpg" alt="">
+                </div>
+                <div class="blogs_page_img_text">
+                    <p class="no1">Sergio Roth</p>
+                    <p class="no2">26 FEB 2022</p>
+                </div>
+            </div>
+            <div class="p_texts">
+                <p>Aenean eleifend ante maecenas pulvinar montes lorem et pede dis dolor pretium donec dictum. Vici
+                    consequat justo enim.
+                    Venenatis eget adipiscing luctus lorem. Adipiscing veni amet luctus enim sem libero tellus
+                    viverra venenatis aliquam.
+                    Commodo natoque quam pulvinar elit.</p>
+                <p class="no3">Eget aenean tellus venenatis. Donec odio tempus. Felis arcu pretium metus nullam quam
+                    aenean
+                    sociis quis sem neque vici
+                    libero. Venenatis nullam fringilla pretium magnis aliquam nunc vulputate integer augue ultricies
+                    cras. Eget viverra
+                    feugiat cras ut. Sit natoque montes tempus ligula eget vitae pede rhoncus maecenas consectetuer
+                    commodo condimentum
+                    aenean.</p>
+
+                <h1 class="main_h1">What are my payment options?</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat</p>
+
+                <h1 class="lot_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <br> do eiusmod
+                    tempor
+                    incididunt ut
+                    labore et dolore magna <br>
+                    aliqua. Ut enim ad minim veniam.</h1>
+
+                <p class="someone">Someone famous in <em>Dick Grayson</em></p>
+
+                <p class="lorem_30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    incididunt ut
+                    labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="butttons_group">
+                    <button>Design</button>
+                    <button>Design</button>
+                    <button>Design</button>
+                    <button>Design</button>
+                    <button>Design</button>
+                    <button>Design</button>
+                    <button>Design</button>
+                </div>
+                <div class="input_group">
+                    <h1 class="contact_text">Leave a Reply</h1>
+                    <div class="name_and_email checked">
+                        <input type="text" placeholder="Name *">
+                        <input type="text" placeholder="Email *">
+                    </div>
+                    <div class="textarea">
+                        <textarea placeholder="Your Message *"></textarea>
+                    </div>
+                    <button class="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: window.innerWidth < 767 ? 1 : 2, // Check screen size and set slidesPerView accordingly
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+        let typed = new Typed(".auto-type", {
+            strings: ["Coding", "Sentence", "emphasis"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+        })
+
+
+
+
+    </script>
+</body>
+
+</html>
