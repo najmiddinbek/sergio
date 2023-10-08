@@ -262,7 +262,7 @@ section~section {
     position: relative;
     z-index: 1;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 170%;
     display: inline-block;
     vertical-align: top;
     text-transform: uppercase;
@@ -1165,6 +1165,10 @@ section~section {
         width: 80%;
     }
 
+    .skills_ul {
+        width: 85%;
+    }
+
     .container {
 
         padding: 0 20px;
@@ -1212,6 +1216,10 @@ section~section {
 
     #services .before_text {
         margin-bottom: 40px;
+    }
+
+    .before_text {
+        font-size: 20px;
     }
 
     .services_card h1 {
