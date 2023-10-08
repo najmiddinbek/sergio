@@ -2344,3 +2344,39 @@ section~section {
     cursor: pointer;
     border: none;
 }
+
+.butttons_group button {
+    background: var(--main-bg);
+    color: var(--white);
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.butttons_group button:hover {
+    background: var(--green);
+}
+
+.footer_adress,
+.footer_email,
+.footer_telephone_number {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_adress i,
+.footer_telephone_number i {
+    font-size: 20px;
+    color: var(--green);
+}
+
+.footer_email {
+    display: flex;
+    align-items: center;
+}
+
+.footer_email i {
+    font-size: 20px;
+    color: var(--green);
+}
